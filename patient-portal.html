@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="eng">
+ <head>
+    <title>Patient Portal</title>
+     <meta charset="UTF-8">
+     <link href="patient-portal_style.css" rel="stylesheet">
+    </head>
+<body>
+    <div id="header1">
+        <a href="hospital%201.html"><img src="Logo.png" alt="logo" id="logo1"/></a>
+            <div id="icon-links">
+			<ul id="links_header" type="none">
+            <li><a href="find doctor.html"><img src="health-icon.png" class="icon"/><span>FIND A PHYSICIAN</span></a></li>
+            <li><a href="opd.html"><img src="patient-portal-icon.png" class="icon"/><span>OPD TIMINGS</span></a></li>
+            <li><a href="career.html"><img src="physicians-icon.png" class="icon"/><span>CAREERS</span></a></li>
+            <li><a href="giving.html"><img src="give-icon.png" class="icon"/><span>PATIENT-PORTAL</span></a></li>
+            </ul>
+        </div></div>
+        
+    <section id="sign_up">
+    <h1 align="center" id="heading">Get Appointment!</h1>
+    <form id="myforms">
+        <fieldset>
+            <legend>Personal Information</legend>
+            <table cellspacing="15">
+                <tr>
+                    <td><label for="first_name">Patient's Name * </label></td>
+                    <td><input type="text" id="first_name" placeholder="&nbsp;&nbsp;First Name" class="input_box" id="input_boxID"/></td>
+                    <td> <input type="text" id="last_name" placeholder="&nbsp;&nbsp;Last Name" class="input_box"/></td>
+                </tr>
+                <tr>
+                    <td colspan="3" class="magic" name="warning" id="test0"> 
+                *Username Required</td>
+                </tr>
+                <tr>
+                    <td><label for="dob">Date of Birth * </label></td>
+                    <td> <input type="date" id="dob" class="input_box"/></td>
+                    <tr>
+                        <td class="magic" name="warning" colspan="3" id="test2">
+                *Date of Birth Required</td>
+                </tr>
+                
+                <tr>
+                    <td><label for="age">Age * </label></td>
+                    <td><input type="number" id="age" max="90" min="5" class="input_box" placeholder="&nbsp;&nbsp;Age "/></td>
+                </tr>
+                <tr>
+                        <td class="magic" name="warning" colspan="3" id="test3">
+                *Age of the patient Required</td>
+                </tr>
+                
+                <tr>
+                    <td><label>Gender</label></td>
+                    <td><input type="radio" id="male" name="gender"/>
+                    <label for="male" name="gender">M</label>
+                    </td>
+                    <td><input type="radio" id="female" name="gender"/>
+                    <label for="female">F</label></td>
+                </tr>
+                
+                <tr>
+                    <td><label for="phone">Contact no. * </label></td>
+                    <td><input type="text" id="phone" class="input_box" placeholder="&nbsp;Contact Number"/></td>
+                </tr>
+                <tr>
+                        <td class="magic" name="warning" colspan="3" id="test6">
+                *Contact number Required</td>
+                </tr>
+                
+                <tr>
+                    <td><label for="email">Email</label></td>  
+                    <td><input type="email" id="email" class="input_box" placeholder="&nbsp;mail@example.com"></td>
+                </tr>
+                <tr>
+                    <td><label for="address">Address*</label></td>
+                <td><textarea id="address" placeholder="&nbsp;Your Address Here"></textarea></td>
+                </tr>
+                <tr>
+                        <td class="magic" name="warning" colspan="3" id="test8">
+                *Address of the patient Required</td>
+                </tr>
+                <tr>
+                    <td colspan="3"><label>Field marked with &nbsp; * &nbsp; are mandatory to be filled</label></td>
+                </tr>
+            </table>
+      
+        <input type="button" onClick="validation()" value="Register" id="submiting"/>    
+        </fieldset>
+        
+    </form>
+        <fieldset>
+            <h2 id="opd">*Refer to the OPD Timings.&nbsp;<a href="opd.html">Click Here!</a></h2></fieldset>
+        
+    
+    </section>
+    <footer>
+        <small>
+            <img src="footer_image.png">
+            Copyright &copy Lakeland Regional Health &nbsp; &nbsp;</small>
+    </footer>
+    <script src="patient_portal_javascript.js"></script>
+    </body>
+</html>

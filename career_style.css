@@ -1,0 +1,94 @@
+body{
+	margin:0;
+    font-family: arial;
+    background-image: url(career3.jpg);
+    background-size: cover;
+}
+
+#logo1{
+    width: 350px;
+    float: left;
+	margin-top:-35px;
+	margin-left:30px;
+	margin-right:50px;
+}
+
+
+.icon{
+	width: 80px;
+	float:top;
+	bottom:20px;
+	position:relative;
+	display:block;
+	padding-left:50px;
+}
+
+ a{
+	text-decoration:none;
+    color: white;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+
+#links_header li{
+	display:inline-block;
+	width:178px;
+    text-align:center;
+	border-right:2px solid ;
+	margin-top:12px;
+	padding:2px;
+    
+	}
+#second,#jobs{
+    background-color: black;
+    color: white;
+    opacity:0.8;
+    padding:15px;
+    border-spacing: 5px;
+    margin-left: 500px;
+    
+    
+}
+#jobs{
+    width:790px;
+}
+#second a{
+    text-decoration: none;
+    color: aquamarine;
+}
+#table1{
+    margin-top: 50px;
+    
+}
+footer{
+    background-color: #0374A7;
+    text-align: right;
+    line-height: 97px;
+    margin-top: 1px;
+}
+small{
+    color: white;
+    
+}
+small img{
+    float: left;
+    display: inline-block;
+    margin:10px;
+    
+}
+#list{
+    border:2px solid black;
+    margin-top: 35px;
+    width: 450px;
+    display: inline-block;
+    float: left;
+    margin-left: -400px;
+    height: 630px;
+    overflow:scroll;
+    background-color: darkslategrey;
+    color: white;
+    opacity: 0.9;
+}
+

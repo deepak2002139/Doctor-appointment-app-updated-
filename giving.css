@@ -1,0 +1,139 @@
+body{
+	margin:0;
+    font-family: arial;
+    background-image: url(bl9.jpg) ;
+    background-size: cover;
+}
+#logo1{
+    width: 350px;
+    float: left;
+	margin-top:-35px;
+	margin-left:30px;
+	margin-right:50px;
+}
+
+
+.icon{
+	width: 80px;
+	float:top;
+	bottom:20px;
+	position:relative;
+	display:block;
+	padding-left:50px;
+}
+
+a{
+	text-decoration:none;
+    color: white;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+#links_header li{
+	display:inline-block;
+	width:178px;
+    text-align:center;
+	border-right:2px solid ;
+	margin-top:12px;
+	padding:2px;
+    
+	}
+/*table{
+    color: white;
+    padding:5px;
+    border:2px solid white;
+}*/
+#headLinks{
+    margin-top: 50px;
+    line-height: 50px;
+    opacity: 0.9;
+
+}
+ #headLinks ul li{
+
+    width:170px;
+    display:inline-block;
+    position: relative;
+    background-color: darkcyan;
+     padding: 10px;
+     line-height: 20px;
+     z-index: 99;
+     
+}
+ #headLinks ul ul{
+     position: absolute;
+   float:left;
+     z-index: 1000;
+     width:170px;
+     margin-left: -20px;
+}
+#headLinks ul li ul li{
+    display: none;
+    width:100%;
+    margin-left:-30px;
+    
+    
+}
+#headLinks ul li:hover ul li {
+    display:inline-block;
+    z-index: 99;
+    
+}
+#banner{
+    width:450px;
+    float:left;
+    margin-left: -400px;
+    margin-right: 50px;
+    margin-top: 115px;
+    border:5px solid white;
+    height:350px;
+}
+.switch1
+{   position:absolute;
+    top:700px;
+    
+    height:140px;
+    width:142px;
+    background-position: 1px 0px;
+}
+.switch1:hover{
+     background-position: 1px  138px;
+}
+
+.table_img{
+    width:400px;
+    height:300px;
+    border:2px solid white;
+}
+.labels{
+    margin-left: 50px;
+    margin-right: 40px;
+    color:dodgerblue;
+}
+#contact{
+    float:right;
+    margin-top: -50px;
+    width:400px;
+}
+#contact_label{
+    float:right;
+    margin-top: 80px;
+    margin-right: -300px;
+}
+footer{
+    background-color: #0374A7;
+    text-align: right;
+    line-height: 97px;
+    margin-top: 150px;
+}
+small{
+    color: white;
+    
+}
+small img{
+    float: left;
+    display: inline-block;
+    margin:10px;
+    
+}

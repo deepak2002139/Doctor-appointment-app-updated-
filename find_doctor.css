@@ -1,0 +1,118 @@
+body{
+	margin:0;
+    font-family: arial;
+    background-image: url(doc98.jpg) ;
+    background-size: cover;
+}
+#logo1{
+    width: 350px;
+    float: left;
+	margin-top:-35px;
+	margin-left:30px;
+	margin-right:50px;
+}
+
+
+.icon{
+	width: 80px;
+	float:top;
+	bottom:20px;
+	position:relative;
+	display:block;
+	padding-left:50px;
+}
+
+a{
+	text-decoration:none;
+    color: white;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+
+#links_header li{
+	display:inline-block;
+	width:178px;
+    text-align:center;
+	border-right:2px solid ;
+	margin-top:12px;
+	padding:2px;
+    
+	}
+.doc_desc{
+    float:right;
+    margin-right: 1000px;
+    margin-top: 50px;
+
+}
+.contact{
+    float: right;
+    margin-right: 700px;
+    margin-top: -115px;
+}
+#c_h{
+    margin-left: 350px;
+}
+#docs{
+    
+    margin: auto;
+    color: black;
+    font-weight: bold;
+}
+#docs_main{
+    
+    background-color: whitesmoke;
+    opacity: 0.9;
+    
+}
+.message{
+    float:right;
+    margin-top: -115px;
+    margin-right: 150px;
+}
+textarea{
+    width:400px;
+    line-height: 25px;
+    padding: 5px;
+    font-weight: bold;
+    margin-right: 100px;
+}
+#m_h{
+   margin-left: 270px; 
+}
+footer{
+    background-color: #0374A7;
+    text-align: right;
+    line-height: 97px;
+    margin-top: 1px;
+}
+small{
+    color: white;
+    
+}
+small img{
+    float: left;
+    display: inline-block;
+    margin:10px;
+    
+}
+.switch1
+{   position:absolute;
+    
+    height:140px;
+    width:142px;
+    background-position: 1px 0px;
+    z-index: 999;
+}
+.switch1:hover{
+     background-position: 1px  138px;
+}
+h4
+{
+    margin-left:1170px;
+    top:120px;
+    z-index: 999;
+    display: inline;
+    
+}
